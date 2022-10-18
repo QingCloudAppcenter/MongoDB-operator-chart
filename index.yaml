@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   mongodb-operator:
   - apiVersion: v2
+    appVersion: 2.0.4
+    created: "2022-10-18T08:57:38.076634648Z"
+    description: MongoDB Kubernetes Community Operator
+    digest: a02ab2a36ffb362f1778823bf301bae27eab2d22be3f222c9b5d555793f5adf6
+    name: mongodb-operator
+    type: application
+    urls:
+    - https://github.com/QingCloudAppcenter/MongoDB-operator-chart/releases/download/mongodb-operator-2.0.4/mongodb-operator-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-10-17T06:06:14.009710524Z"
     description: MongoDB Kubernetes Community Operator
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/QingCloudAppcenter/MongoDB-operator-chart/releases/download/mongodb-operator-0.1.0/mongodb-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-17T06:06:14.009718924Z"
+generated: "2022-10-18T08:57:38.076641048Z"
