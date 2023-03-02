@@ -4,6 +4,7 @@ kind: ServiceMonitor
 metadata:
   name: {{ include "mongodb-operator.fullname" . }}
   labels:
+    app.kubernetes.io/vendor: kubesphere      
     {{- include "mongodb-operator.labels" . | nindent 4 }}
 spec:
   # Service labels to match
